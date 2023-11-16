@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(231, 171, 175);
+        }
+
+        header {
+            background-color: rgb(218, 109, 109);
+            color: #0d0000;
+            padding: 42px;
+            text-align: left;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: 22px;
+            font-size: 35px;
+            
+
+        }
+        nav li{
+            display: flex;
+            justify-content: left;
+            
+            margin: 32px;
+            font-size: 20px;
+            list-style-type: square; 
+        }
+        ui{
+            display: flex;
+            justify-content: center;
+        }
+        ui li{
+            list-style: none;
+            margin: 0 22px;
+        }
+         ui li a{
+            text-decoration: none;
+            color: rgb(5, 36, 16);
+
+        }
+         ui li a:hover{
+            color: #00010a;
+        }
+
+        nav li a{
+            text-decoration: none;
+            color: #0c0000;
+
+        }
+        nav li a:hover{
+            color: #0c0101;
+        }
+
+        .logo {
+            max-width: 100px;
+            height: auto;
+            
+        }
+
+        .internship-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 25px;
+        }
+
+        .internship-box {
+            width: 600px;
+            height: 400px;
+            background-color: #eff7f2;
+            margin: 30px;
+            padding: 25px;
+            text-align: center;
+            color: #171717;
+            border-radius: 20px;
+        }
+        .view-box {
+            display: flex;
+            width: 15px;
+            height: 10px;
+            background-color: #7497cb;
+            margin: 30px;
+            padding: 25px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <img src="S.PNG" alt="Logo" class="logo">
+
+        <div class="left">VAULT OF CODES</div>
+        
+
+        <div class="right">
+            <ui>
+               <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact me</a></li>
+            </ui>
+        </div>
+        
+    </header>
+    <nav>
+
+    <div class="internship-container">
+        <div class="internship-box">JAVA PROGRAMMING INTERNSHIP PROGRAM
+            
+                <li>Duration: 1 month/2 months</li>
+                <li>Mode: Virtual</li>
+                <li>Stipend: - </li>
+                <li>Start date: 05/11/2023</li>
+        <div class="view-box">
+                <li><a href="/">View</a></li>
+            </div>
+            
+        </div>
+        <div class="internship-box">PYTHON PROGRAMMING  INTERNSHIP PROGRAM
+            
+                <li>Duration: 1 month/2 months</li>
+                <li>Mode: Virtual</li>
+                <li>Stipend: - </li>
+                <li>Start date: 05/11/2023</li>
+                <div class="view-box">
+                    <li><a href="/">View</a></li>
+                </div>
+            
+        </div>
+        <div class="internship-box">WEB DEVELOPMENT INTERNSHIP PROGRAM
+            
+                <li>Duration: 1 month/2 months</li>
+                <li>Mode: Virtual</li>
+                <li>Stipend: - </li>
+                <li>Start date: 05/11/2023</li>
+                <div class="view-box">
+                    <li><a href="/">View</a></li>
+                </div>
+            
+        </div>
+        <div class="internship-box">APP DEVELOPMENT INTERNSHIP PROGRAM
+            
+                <li>Duration: 1 month/2 months</li>
+                <li>Mode: Virtual</li>
+                <li>Stipend: - </li>
+                <li>Start date: 05/11/2023</li>
+                <div class="view-box">
+                    <li><a href="/">View</a></li>
+                </div>
+            
+        </div>
+        <div class="internship-box">CLOUD COMPUTING INTERNSHIP PROGRAM
+            
+                <li>Duration: 1 month/2 months</li>
+                <li>Mode: Virtual</li>
+                <li>Stipend: - </li>
+                <li>Start date: 05/11/2023</li>
+                <div class="view-box">
+                    <li><a href="/">View</a></li>
+                </div>
+            
+        </div>
+    </div>
+    </nav>
+</body>
+</html>
